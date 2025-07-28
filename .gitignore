@@ -1,0 +1,16 @@
+*.o
+*.bin
+*.mtx
+*.log
+*.exe
+__pycache__/
+*.pyc
+*.out
+*.s
+*.png
+*.bin.info
+*.msh
+vgcore.1759367
+vgcore.1759726
+mesh/
+mesh.tar.gz

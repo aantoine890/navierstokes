@@ -1,0 +1,90 @@
+11856
+1. 2x SpMV CSR SEQ :              84 μs	|    ref   |        ref
+2. 2x SpMV CSR SEQ OPT :          58 μs	|   1.45x  | rel err = 1.160e-17
+3. 2x SpMV CSR SEQ FMA :          58 μs	|   1.45x  | rel err = 1.160e-17
+4. 2x SpMV CSR SEQ AVX2 :          6 μs	|  14.00x  | rel err = 2.517e-16
+5. 2x SpMV BCSR SEQ :             12 μs |   7.00x  | rel err = 2.384e-16
+6. 2x SpMV BCSR SEQ OPT :         10 μs |   8.40x  | rel err = 6.180e-17
+7. 2x SpMV BCSR SEQ FMA :         10 μs |   8.40x  | rel err = 1.160e-17
+8. 2x SpMV BCSR SEQ AVX2 :         4 μs |  21.00x  | rel err = 1.160e-17
+91296
+1. 2x SpMV CSR SEQ :             676 μs	|    ref   |        ref
+2. 2x SpMV CSR SEQ OPT :         454 μs	|   1.49x  | rel err = 3.893e-17
+3. 2x SpMV CSR SEQ FMA :         454 μs	|   1.49x  | rel err = 3.893e-17
+4. 2x SpMV CSR SEQ AVX2 :         60 μs	|  11.27x  | rel err = 3.351e-16
+5. 2x SpMV BCSR SEQ :            105 μs |   6.44x  | rel err = 3.730e-16
+6. 2x SpMV BCSR SEQ OPT :         84 μs |   8.05x  | rel err = 6.886e-17
+7. 2x SpMV BCSR SEQ FMA :         83 μs |   8.14x  | rel err = 3.893e-17
+8. 2x SpMV BCSR SEQ AVX2 :        42 μs |  16.10x  | rel err = 3.893e-17
+317888
+1. 2x SpMV CSR SEQ :            2389 μs	|    ref   |        ref
+2. 2x SpMV CSR SEQ OPT :        1595 μs	|   1.50x  | rel err = 7.945e-17
+3. 2x SpMV CSR SEQ FMA :        1583 μs	|   1.51x  | rel err = 7.945e-17
+4. 2x SpMV CSR SEQ AVX2 :        213 μs	|  11.22x  | rel err = 3.751e-16
+5. 2x SpMV BCSR SEQ :            350 μs |   6.83x  | rel err = 3.986e-16
+6. 2x SpMV BCSR SEQ OPT :        298 μs |   8.02x  | rel err = 1.067e-16
+7. 2x SpMV BCSR SEQ FMA :        296 μs |   8.07x  | rel err = 7.945e-17
+8. 2x SpMV BCSR SEQ AVX2 :       156 μs |  15.31x  | rel err = 7.945e-17
+520688
+1. 2x SpMV CSR SEQ :            3979 μs	|    ref   |        ref
+2. 2x SpMV CSR SEQ OPT :        2705 μs	|   1.47x  | rel err = 8.007e-17
+3. 2x SpMV CSR SEQ FMA :        2648 μs	|   1.50x  | rel err = 8.007e-17
+4. 2x SpMV CSR SEQ AVX2 :        364 μs	|  10.93x  | rel err = 3.720e-16
+5. 2x SpMV BCSR SEQ :            590 μs |   6.74x  | rel err = 3.983e-16
+6. 2x SpMV BCSR SEQ OPT :        510 μs |   7.80x  | rel err = 1.136e-16
+7. 2x SpMV BCSR SEQ FMA :        506 μs |   7.86x  | rel err = 8.007e-17
+8. 2x SpMV BCSR SEQ AVX2 :       263 μs |  15.13x  | rel err = 8.007e-17
+1935776
+1. 2x SpMV CSR SEQ :           14649 μs	|    ref   |        ref
+2. 2x SpMV CSR SEQ OPT :        9877 μs	|   1.48x  | rel err = 9.176e-17
+3. 2x SpMV CSR SEQ FMA :        9868 μs	|   1.48x  | rel err = 9.176e-17
+4. 2x SpMV CSR SEQ AVX2 :       2014 μs	|  7.27x  | rel err = 3.846e-16
+5. 2x SpMV BCSR SEQ :           2470 μs |   5.93x  | rel err = 3.990e-16
+6. 2x SpMV BCSR SEQ OPT :       2172 μs |   6.74x  | rel err = 1.173e-16
+7. 2x SpMV BCSR SEQ FMA :       2169 μs |   6.75x  | rel err = 9.176e-17
+8. 2x SpMV BCSR SEQ AVX2 :      1376 μs |  10.65x  | rel err = 9.176e-17
+6657600
+1. 2x SpMV CSR SEQ :           51169 μs	|    ref   |        ref
+2. 2x SpMV CSR SEQ OPT :       34833 μs	|   1.47x  | rel err = 1.106e-16
+3. 2x SpMV CSR SEQ FMA :       34562 μs	|   1.48x  | rel err = 1.106e-16
+4. 2x SpMV CSR SEQ AVX2 :       8093 μs	|  6.32x  | rel err = 3.922e-16
+5. 2x SpMV BCSR SEQ :          10285 μs |   4.98x  | rel err = 4.068e-16
+6. 2x SpMV BCSR SEQ OPT :       8505 μs |   6.02x  | rel err = 1.262e-16
+7. 2x SpMV BCSR SEQ FMA :       8453 μs |   6.05x  | rel err = 1.106e-16
+8. 2x SpMV BCSR SEQ AVX2 :      6405 μs |  7.99x  | rel err = 1.106e-16
+12826240
+1. 2x SpMV CSR SEQ :          100367 μs	|    ref   |        ref
+2. 2x SpMV CSR SEQ OPT :       68231 μs	|   1.47x  | rel err = 1.315e-16
+3. 2x SpMV CSR SEQ FMA :       67636 μs	|   1.48x  | rel err = 1.315e-16
+4. 2x SpMV CSR SEQ AVX2 :      17229 μs	|  5.83x  | rel err = 4.384e-16
+5. 2x SpMV BCSR SEQ :          21314 μs |   4.71x  | rel err = 4.392e-16
+6. 2x SpMV BCSR SEQ OPT :      16708 μs |   6.01x  | rel err = 1.711e-16
+7. 2x SpMV BCSR SEQ FMA :      17603 μs |   5.70x  | rel err = 1.315e-16
+8. 2x SpMV BCSR SEQ AVX2 :     12696 μs |  7.91x  | rel err = 1.315e-16
+28603984
+1. 2x SpMV CSR SEQ :          239643 μs	|    ref   |        ref
+2. 2x SpMV CSR SEQ OPT :      170916 μs	|   1.40x  | rel err = 1.326e-16
+3. 2x SpMV CSR SEQ FMA :      164633 μs	|   1.46x  | rel err = 1.326e-16
+4. 2x SpMV CSR SEQ AVX2 :      51178 μs	|  4.68x  | rel err = 4.458e-16
+5. 2x SpMV BCSR SEQ :          52981 μs |   4.52x  | rel err = 4.398e-16
+6. 2x SpMV BCSR SEQ OPT :      46195 μs |   5.19x  | rel err = 1.752e-16
+7. 2x SpMV BCSR SEQ FMA :      46083 μs |   5.20x  | rel err = 1.326e-16
+8. 2x SpMV BCSR SEQ AVX2 :     32355 μs |  7.41x  | rel err = 1.326e-16
+58071088
+1. 2x SpMV CSR SEQ :          584336 μs	|    ref   |        ref
+2. 2x SpMV CSR SEQ OPT :      440756 μs	|   1.33x  | rel err = 1.538e-16
+3. 2x SpMV CSR SEQ FMA :      409378 μs	|   1.43x  | rel err = 1.538e-16
+4. 2x SpMV CSR SEQ AVX2 :     133633 μs	|  4.37x  | rel err = 6.226e-16
+5. 2x SpMV BCSR SEQ :         187417 μs |   3.12x  | rel err = 5.098e-16
+6. 2x SpMV BCSR SEQ OPT :     164917 μs |   3.54x  | rel err = 2.503e-16
+7. 2x SpMV BCSR SEQ FMA :     151969 μs |   3.85x  | rel err = 1.538e-16
+8. 2x SpMV BCSR SEQ AVX2 :    117341 μs |  4.98x  | rel err = 1.538e-16
+126642720
+1. 2x SpMV CSR SEQ :         1425742 μs	|    ref   |        ref
+2. 2x SpMV CSR SEQ OPT :     1135821 μs	|   1.26x  | rel err = 1.260e-16
+3. 2x SpMV CSR SEQ FMA :     1094849 μs	|   1.30x  | rel err = 1.260e-16
+4. 2x SpMV CSR SEQ AVX2 :     323037 μs	|  4.41x  | rel err = 4.404e-16
+5. 2x SpMV BCSR SEQ :         583414 μs |   2.44x  | rel err = 4.397e-16
+6. 2x SpMV BCSR SEQ OPT :     471898 μs |   3.02x  | rel err = 1.706e-16
+7. 2x SpMV BCSR SEQ FMA :     472163 μs |   3.02x  | rel err = 1.260e-16
+8. 2x SpMV BCSR SEQ AVX2 :    315732 μs |  4.52x  | rel err = 1.260e-16

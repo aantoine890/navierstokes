@@ -1,0 +1,90 @@
+Matrix loaded: 268 rows, 11856 nonzeros
+2SpMV CSR :       89 μs | ref | ref
+2SpMV CSR OPT :       56 μs | 1.59x | rel err = 5.146e-18
+2SpMV CSR FMA :       56 μs | 1.59x | rel err = 5.146e-18
+2SpMV CSR AVX2 :       13 μs | 6.85x | rel err = 1.364e-17
+2SpMV BCSR :       15 μs | 5.93x | rel err = 8.036e-18
+2SpMV BCSR OPT :       13 μs | 6.85x | rel err = 5.146e-18
+2SpMV BCSR FMA :       15 μs | 5.93x | rel err = 5.146e-18
+2SpMV BCSR AVX2 :       10 μs | 8.90x | rel err = 5.146e-18
+Matrix loaded: 1936 rows, 91296 nonzeros
+2SpMV CSR :      694 μs | ref | ref
+2SpMV CSR OPT :      423 μs | 1.64x | rel err = 1.409e-17
+2SpMV CSR FMA :      431 μs | 1.61x | rel err = 1.409e-17
+2SpMV CSR AVX2 :      104 μs | 6.67x | rel err = 3.351e-17
+2SpMV BCSR :      117 μs | 5.93x | rel err = 2.000e-17
+2SpMV BCSR OPT :      108 μs | 6.43x | rel err = 1.409e-17
+2SpMV BCSR FMA :      103 μs | 6.74x | rel err = 1.409e-17
+2SpMV BCSR AVX2 :       80 μs | 8.68x | rel err = 1.409e-17
+Matrix loaded: 6232 rows, 317888 nonzeros
+2SpMV CSR :     2423 μs | ref | ref
+2SpMV CSR OPT :     1487 μs | 1.63x | rel err = 2.319e-17
+2SpMV CSR FMA :     1501 μs | 1.61x | rel err = 2.319e-17
+2SpMV CSR AVX2 :      392 μs | 6.18x | rel err = 4.892e-17
+2SpMV BCSR :      426 μs | 5.69x | rel err = 2.999e-17
+2SpMV BCSR OPT :      400 μs | 6.06x | rel err = 2.319e-17
+2SpMV BCSR FMA :      384 μs | 6.31x | rel err = 2.319e-17
+2SpMV BCSR AVX2 :      282 μs | 8.59x | rel err = 2.319e-17
+Matrix loaded: 10084 rows, 520688 nonzeros
+2SpMV CSR :     3978 μs | ref | ref
+2SpMV CSR OPT :     2444 μs | 1.63x | rel err = 2.025e-17
+2SpMV CSR FMA :     2445 μs | 1.63x | rel err = 2.025e-17
+2SpMV CSR AVX2 :      598 μs | 6.65x | rel err = 4.590e-17
+2SpMV BCSR :      687 μs | 5.79x | rel err = 3.003e-17
+2SpMV BCSR OPT :      615 μs | 6.47x | rel err = 2.025e-17
+2SpMV BCSR FMA :      627 μs | 6.34x | rel err = 2.025e-17
+2SpMV BCSR AVX2 :      456 μs | 8.72x | rel err = 2.025e-17
+Matrix loaded: 35928 rows, 1935776 nonzeros
+2SpMV CSR :    14907 μs | ref | ref
+2SpMV CSR OPT :     9151 μs | 1.63x | rel err = 2.970e-17
+2SpMV CSR FMA :     9156 μs | 1.63x | rel err = 2.970e-17
+2SpMV CSR AVX2 :     2366 μs | 6.30x | rel err = 6.645e-17
+2SpMV BCSR :     2783 μs | 5.36x | rel err = 4.125e-17
+2SpMV BCSR OPT :     2386 μs | 6.25x | rel err = 2.970e-17
+2SpMV BCSR FMA :     2382 μs | 6.26x | rel err = 2.970e-17
+2SpMV BCSR AVX2 :     1869 μs | 7.98x | rel err = 2.970e-17
+Matrix loaded: 121480 rows, 6657600 nonzeros
+2SpMV CSR :    51765 μs | ref | ref
+2SpMV CSR OPT :    32223 μs | 1.61x | rel err = 3.394e-17
+2SpMV CSR FMA :    32218 μs | 1.61x | rel err = 3.394e-17
+2SpMV CSR AVX2 :     8471 μs | 6.11x | rel err = 7.297e-17
+2SpMV BCSR :    10640 μs | 4.87x | rel err = 3.995e-17
+2SpMV BCSR OPT :     8757 μs | 5.91x | rel err = 3.394e-17
+2SpMV BCSR FMA :     8751 μs | 5.92x | rel err = 3.394e-17
+2SpMV BCSR AVX2 :     6810 μs | 7.60x | rel err = 3.394e-17
+Matrix loaded: 224424 rows, 12826240 nonzeros
+2SpMV CSR :   101402 μs | ref | ref
+2SpMV CSR OPT :    62440 μs | 1.62x | rel err = 4.044e-17
+2SpMV CSR FMA :    62463 μs | 1.62x | rel err = 4.044e-17
+2SpMV CSR AVX2 :    16682 μs | 6.08x | rel err = 1.005e-16
+2SpMV BCSR :    20735 μs | 4.89x | rel err = 6.121e-17
+2SpMV BCSR OPT :    16993 μs | 5.97x | rel err = 4.044e-17
+2SpMV BCSR FMA :    16973 μs | 5.97x | rel err = 4.044e-17
+2SpMV BCSR AVX2 :    13141 μs | 7.72x | rel err = 4.044e-17
+Matrix loaded: 509860 rows, 28603984 nonzeros
+2SpMV CSR :   240367 μs | ref | ref
+2SpMV CSR OPT :   147578 μs | 1.63x | rel err = 4.183e-17
+2SpMV CSR FMA :   147507 μs | 1.63x | rel err = 4.183e-17
+2SpMV CSR AVX2 :    41016 μs | 5.86x | rel err = 1.018e-16
+2SpMV BCSR :    52713 μs | 4.56x | rel err = 6.196e-17
+2SpMV BCSR OPT :    41344 μs | 5.81x | rel err = 4.183e-17
+2SpMV BCSR FMA :    41679 μs | 5.77x | rel err = 4.183e-17
+2SpMV BCSR AVX2 :    32519 μs | 7.39x | rel err = 4.183e-17
+Matrix loaded: 992644 rows, 58071088 nonzeros
+2SpMV CSR :   577455 μs | ref | ref
+2SpMV CSR OPT :   412283 μs | 1.40x | rel err = 4.045e-17
+2SpMV CSR FMA :   411810 μs | 1.40x | rel err = 4.045e-17
+2SpMV CSR AVX2 :   132256 μs | 4.37x | rel err = 1.361e-16
+2SpMV BCSR :   196821 μs | 2.93x | rel err = 8.162e-17
+2SpMV BCSR OPT :   163551 μs | 3.53x | rel err = 4.045e-17
+2SpMV BCSR FMA :   163571 μs | 3.53x | rel err = 4.045e-17
+2SpMV BCSR AVX2 :   118493 μs | 4.87x | rel err = 4.045e-17
+Matrix loaded: 2304376 rows, 126642720 nonzeros
+2SpMV CSR :  1417315 μs | ref | ref
+2SpMV CSR OPT :  1000386 μs | 1.42x | rel err = 4.007e-17
+2SpMV CSR FMA :  1004389 μs | 1.41x | rel err = 4.007e-17
+2SpMV CSR AVX2 :   323417 μs | 4.38x | rel err = 1.006e-16
+2SpMV BCSR :   640853 μs | 2.21x | rel err = 6.062e-17
+2SpMV BCSR OPT :   503388 μs | 2.82x | rel err = 4.007e-17
+2SpMV BCSR FMA :   503123 μs | 2.82x | rel err = 4.007e-17
+2SpMV BCSR AVX2 :   341028 μs | 4.16x | rel err = 4.007e-17
